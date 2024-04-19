@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wordle</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <h1 class="my-4">Wordle</h1>
+
+  <div id="game-container">
+    <label for="guess-input">Enter your guess:</label>
+    <input type="text" id="guess-input" maxlength="5" class="form-control">
+    <button id="guess-btn" class="btn btn-primary">Guess</button>
+    <p id="attempts-left">Attempts left: 6</p>
+    <div id="feedback"></div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  #game-container {
+    margin-top: 20px;
+  }
+  
+  #feedback p {
+    margin-top: 10px;
+  }
+  
+  .feedback-letter {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+  }
+  
+  .feedback-letter.G {
+    background-color: green;
+    color: white;
+  }
+  
+  .feedback-letter.Y {
+    background-color: yellow;
+  }
+  
+  .feedback-letter.X {
+    background-color: gray;
+  }
+  
